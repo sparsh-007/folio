@@ -1,0 +1,55 @@
+footer {
+  background: url(../../Assets/footer-bg.svg), #949cdf;
+  background-size: cover;
+  color: white;
+  height: 70vh;
+}
+
+footer .footer-curve {
+  width: 100%;
+}
+
+footer .footer .footer-head {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+footer .footer .social {
+  width: 50%;
+  margin: auto;
+}
+
+footer .footer .social .social-link {
+  margin: 1rem;
+}
+
+footer .footer .btm {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 414px) {
+  footer {
+    height: 50vh;
+  }
+  footer .footer {
+    padding: 1rem;
+    height: 80%;
+    position: relative;
+  }
+  footer .footer .footer-head {
+    font-size: 2rem;
+  }
+  footer .footer .social {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  footer .footer .social .social-link .social-icon {
+    width: 35px;
+  }
+  footer .footer .btm {
+    position: absolute;
+    bottom: 20px;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,22 @@
+.about {
+  font-size: 3.2rem;
+  height: 50vh;
+  font-weight: bolder;
+  position: relative;
+
+  .para {
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about {
+    height: 100vh;
+    padding: 2rem;
+
+    .para {
+      font-size: 1.5rem;
+    }
+  }
+}

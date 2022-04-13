@@ -1,0 +1,84 @@
+.skills {
+  text-align: left;
+  padding: 2rem 0;
+  height: 80vh;
+  margin-top: 3rem;
+}
+
+.skills .pattern-right {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+#skills-subhead{
+  font-weight: 800;
+}
+
+.skills .pattern-left {
+  position: absolute;
+  left: 0;
+  z-index: -100;
+}
+
+.skills .skills-head {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  z-index: 5;
+}
+
+.skills .skills-subhead {
+  font-size: 1.5rem;
+  z-index: 5;
+}
+
+.skills .section {
+  z-index: 5;
+  margin-top: 2rem;
+}
+
+.skills .section .sec-head {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.skills .section .skill-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills .section .skill-icons .skill-icon {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 414px) {
+  .skills {
+    padding: 2rem;
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .skills .pattern-left,
+  .skills .pattern-right {
+    display: none;
+  }
+  .skills .skills-head {
+    font-size: 2.5rem;
+  }
+  .skills .skills-subhead {
+    font-size: 1.2rem;
+  }
+  .skills .section .skill-icons {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

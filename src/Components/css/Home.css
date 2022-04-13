@@ -1,0 +1,170 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.home .left {
+  text-align: left;
+}
+
+.home .left .greet {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.home .left .intro,
+.home .left .desc {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.home .left .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.home .left .buttons .btn {
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  margin: 2rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+#description{
+  width: 78%;
+}
+
+.home .left .buttons .connect {
+  background-color: #eeeeee;
+}
+
+.home .left .buttons .btn:hover {
+  opacity: 0.8;
+}
+
+.home .right .illustration {
+  width: 110%;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home .left {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .home .left .greet {
+    font-size: 2rem;
+  }
+  .home .left .intro,
+  .home .left .desc {
+    font-size: 1.7rem;
+  }
+  .home .left .buttons {
+    width: 50%;
+    margin: auto;
+  }
+  .home .left .buttons .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 18px;
+  }
+  .home .right {
+    margin-top: 1rem;
+  }
+  .home .right .illustration {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home .left {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .home .left .greet {
+    font-size: 2rem;
+  }
+  .home .left .intro,
+  .home .left .desc {
+    font-size: 1.7rem;
+  }
+  .home .left .buttons {
+    width: 50%;
+    margin: auto;
+  }
+  .home .left .buttons .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 18px;
+  }
+  .home .right {
+    margin-top: 1rem;
+  }
+  .home .right .illustration {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .home .left {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .home .left .greet {
+    font-size: 2rem;
+  }
+  .home .left .intro,
+  .home .left .desc {
+    font-size: 1.7rem;
+  }
+  .home .left .buttons {
+    width: 85%;
+    margin: auto;
+  }
+  .home .left .buttons .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 18px;
+  }
+  .home .right {
+    margin-top: 1rem;
+  }
+  .home .right .illustration {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

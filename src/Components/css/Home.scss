@@ -1,0 +1,166 @@
+.home {
+  display: flex;
+  align-items: center;
+  //   justify-content: space-between;
+  height: 100vh;
+
+  .left {
+    text-align: left;
+
+    .greet {
+      font-size: 3rem;
+      font-weight: bolder;
+    }
+    .intro,
+    .desc {
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      font-weight: bold;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
+
+      .btn {
+        padding: 0.7rem 2rem;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Noto Sans", sans-serif;
+        margin: 2rem 0;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        transition: opacity 0.2s ease;
+        text-decoration: none;
+      }
+
+      .connect {
+        background-color: rgb(238, 238, 238);
+      }
+
+      .btn:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .right {
+    .illustration {
+      width: 110%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    flex-direction: column;
+
+    .left {
+      padding: 1.5rem;
+      text-align: center;
+
+      .greet {
+        font-size: 2rem;
+      }
+      .intro,
+      .desc {
+        font-size: 1.7rem;
+      }
+
+      .buttons {
+        width: 50%;
+        margin: auto;
+
+        .btn {
+          padding: 0.7rem 1.5rem;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .right {
+      margin-top: 1rem;
+
+      .illustration {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+
+    .left {
+      padding: 1.5rem;
+      text-align: center;
+
+      .greet {
+        font-size: 2rem;
+      }
+      .intro,
+      .desc {
+        font-size: 1.7rem;
+      }
+
+      .buttons {
+        width: 50%;
+        margin: auto;
+
+        .btn {
+          padding: 0.7rem 1.5rem;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .right {
+      margin-top: 1rem;
+
+      .illustration {
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .home {
+    flex-direction: column;
+
+    .left {
+      padding: 1.5rem;
+      text-align: center;
+
+      .greet {
+        font-size: 2rem;
+      }
+      .intro,
+      .desc {
+        font-size: 1.7rem;
+      }
+
+      .buttons {
+        width: 85%;
+        margin: auto;
+
+        .btn {
+          padding: 0.7rem 1.5rem;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .right {
+      margin-top: 1rem;
+
+      .illustration {
+        width: 90%;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+.projects {
+  text-align: left;
+  margin-bottom: 5rem;
+
+  .project-head {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .cards {
+    .project-card {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+
+      .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .image {
+          width: 80%;
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.404);
+        }
+      }
+      .left {
+        .head {
+          font-size: 2rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+
+          .border-line {
+            width: 50px;
+            height: 5px;
+            border-radius: 10px;
+            margin-top: 0.8rem;
+          }
+        }
+
+        .desc {
+          font-size: 18px;
+        }
+
+        .btm {
+          margin-top: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 70%;
+
+          .btns {
+            padding: 0.7rem 2rem;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Noto Sans", sans-serif;
+            margin: 2rem 0;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            transition: opacity 0.2s ease;
+            text-decoration: none;
+          }
+          .btns:hover {
+            opacity: 0.8;
+          }
+
+          .src {
+            background-color: rgb(238, 238, 238);
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .projects {
+    padding: 2rem;
+    text-align: center;
+
+    .project-head {
+      font-size: 2rem;
+    }
+
+    .cards {
+      .project-card {
+        flex-direction: column;
+
+        .right {
+          .image {
+            width: 100%;
+          }
+        }
+
+        .left {
+          .head {
+            font-size: 1.5rem;
+            width: fit-content;
+            margin: auto;
+            margin-bottom: 2rem;
+
+            .border-line {
+              margin-top: 10px;
+            }
+          }
+
+          .desc {
+            font-size: 16px;
+          }
+
+          .btm {
+            width: 100%;
+
+            .btns {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

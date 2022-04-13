@@ -1,0 +1,23 @@
+.about {
+  font-size: 3.2rem;
+  height: 50vh;
+  font-weight: bolder;
+  position: relative;
+}
+
+.about .para {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 414px) {
+  .about {
+    height: 100vh;
+    padding: 2rem;
+  }
+  .about .para {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=About.css.map */

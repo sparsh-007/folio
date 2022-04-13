@@ -1,0 +1,133 @@
+.projects {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.projects .project-head {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projects .cards .project-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.projects .cards .project-card .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects .cards .project-card .right .image {
+  width: 80%;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.404);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.404);
+}
+
+.projects .cards .project-card .left .head {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.projects .cards .project-card .left .head .border-line {
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  margin-top: 0.8rem;
+}
+
+.projects .cards .project-card .left .desc {
+  font-size: 18px;
+}
+
+.projects .cards .project-card .left .btm {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+}
+
+.projects .cards .project-card .left .btm .btns {
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  margin: 2rem 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+
+.projects .cards .project-card .left .btm .btns:hover {
+  opacity: 0.8;
+}
+
+.projects .cards .project-card .left .btm .src {
+  background-color: #eeeeee;
+  color: black;
+}
+
+@media screen and (max-width: 414px) {
+  .projects {
+    padding: 2rem;
+    text-align: center;
+  }
+  .projects .project-head {
+    font-size: 2rem;
+  }
+  .projects .cards .project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .cards .project-card .right .image {
+    width: 100%;
+  }
+  .projects .cards .project-card .left .head {
+    font-size: 1.5rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .projects .cards .project-card .left .head .border-line {
+    margin-top: 10px;
+  }
+  .projects .cards .project-card .left .desc {
+    font-size: 16px;
+  }
+  .projects .cards .project-card .left .btm {
+    width: 100%;
+  }
+  .projects .cards .project-card .left .btm .btns {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=Projects.css.map */

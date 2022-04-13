@@ -1,0 +1,62 @@
+footer {
+  background: url(../../Assets/footer-bg.svg), #949cdf;
+  background-size: cover;
+  color: white;
+  height: 70vh;
+
+  .footer-curve {
+    width: 100%;
+  }
+
+  .footer {
+    .footer-head {
+      font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .social {
+      width: 50%;
+      margin: auto;
+
+      .social-link {
+        margin: 1rem;
+      }
+    }
+
+    .btm {
+      margin-top: 4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  footer {
+    height: 50vh;
+
+    .footer {
+      padding: 1rem;
+      height: 80%;
+      position: relative;
+
+      .footer-head {
+        font-size: 2rem;
+      }
+
+      .social {
+        width: 100%;
+        margin-top: 3rem;
+
+        .social-link {
+          .social-icon {
+            width: 35px;
+          }
+        }
+      }
+      .btm {
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+  }
+}

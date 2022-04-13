@@ -1,0 +1,101 @@
+header {
+  width: 100%;
+  padding: 1rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-transform: all 0.2s ease;
+          transform: all 0.2s ease;
+  z-index: 100;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header .logo-icon {
+  width: 40px;
+}
+
+header .header .sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header .sub-menu .menu {
+  display: none;
+}
+
+header .header .sub-menu .theme-switcher {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header .header .sub-menu .theme-switcher img {
+  width: 30px;
+}
+
+header .header nav {
+  width: 50%;
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+header .header nav .header-link {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    width: 100%;
+  }
+  header .header .logo-icon {
+    width: 30px;
+    margin: 0 1rem;
+  }
+  header .header .sub-menu .menu {
+    display: block;
+    margin-right: 1rem;
+    width: 25px;
+  }
+  header .header .sub-menu .theme-switcher {
+    margin-right: 1rem;
+  }
+  header .header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    border: 0.5px solid;
+    border-radius: 5px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
