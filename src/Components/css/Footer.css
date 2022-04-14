@@ -58,4 +58,21 @@ footer .footer .btm {
     bottom: 20px;
   }
 }
+@media screen and (max-width:360px){
+  #footer-head{
+    width: 320px;
+    margin-left: 15px;
+  }
+  #footer{
+    right: 14px;
+    width: 360px;
+  }
+  #social{
+    width: 360px;
+  }
+  #btm{
+left: 32px;
+  }
+  
+}
 /*# sourceMappingURL=Footer.css.map */
