@@ -130,4 +130,8 @@
     font-size: 18px;
   }
 }
-/*# sourceMappingURL=Projects.css.map */
+@media screen and (max-width:360px) {
+  #buttonskills{
+    width: 320px;
+  }
+}
