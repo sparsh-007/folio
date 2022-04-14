@@ -1,6 +1,6 @@
 import React from "react";
 import illustration from "../Assets/project.svg";
-import Resume from "../Assets/Resume.pdf";
+import Resume from "../Assets/sparsh_kapoor.pdf";
 import "./css/Home.css";
 // import Typewriter from "typewriter-effect";
 
