@@ -16,7 +16,7 @@ function ProjectCard({ head, desc, live, code, image, theme }) {
         <p className="desc" id="project-desc">
           {desc}
         </p>
-        <div className="btm">
+        <div className="btm" id="buttonskills">
           <a
             href={live}
             target="blank"
