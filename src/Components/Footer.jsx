@@ -16,7 +16,7 @@ function Footer({ theme }) {
         src={theme.name === "dark" ? footerCurve : footerCurveLight}
         alt=""
       />
-      <div className="footer">
+      <div className="footer" id="footer">
         <div className="footer-head" id="footer-head">
           Feel free to contact on social media.
         </div>
