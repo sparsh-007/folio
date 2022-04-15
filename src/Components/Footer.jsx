@@ -43,7 +43,7 @@ function Footer({ theme }) {
             <img src={linkedin} alt="" className="social-icon" />
           </a>
           <a
-            href="https://leetcode.com/schafermike960/"
+            href="https://leetcode.com/sparshkapoor43/"
             className="social-link"
             target="blank"
           >
