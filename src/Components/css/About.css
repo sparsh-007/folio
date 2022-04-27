@@ -1,6 +1,6 @@
 .about {
   font-size: 3.2rem;
-  height: 10vh;
+  height: 50vh;
   font-weight: bolder;
   position: relative;
 }
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 414px) {
   .about {
-    height: 100vh;
+    height: auto;
     padding: 2rem;
   }
   .about .para {
