@@ -8,7 +8,7 @@ import menuLight from "../Assets/menu-light.svg";
 import "./css/Header.css";
 
 function Header({ theme, changeTheme }) {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(true);
   const isLight = theme.name === "light";
   const bgdark =
     "linear-gradient(rgba(32, 32, 34, 1),rgba(32, 32, 34, 1),rgba(32, 32, 34, 0.9),rgba(32, 32, 34, 0.6),rgba(32, 32, 34, 0.4),rgba(32, 32, 34, 0))";
@@ -28,6 +28,7 @@ function Header({ theme, changeTheme }) {
         <img src={isLight ? logodark : logo} alt="" className="logo-icon" />
         <nav
           onClick={handleMenu}
+          style={menu ? { display: 'flex' } : { display: 'none' }}
         >
           <a
             href="#home"
