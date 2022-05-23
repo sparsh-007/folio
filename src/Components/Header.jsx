@@ -28,7 +28,6 @@ function Header({ theme, changeTheme }) {
         <img src={isLight ? logodark : logo} alt="" className="logo-icon" />
         <nav
           onClick={handleMenu}
-          style={menu ? { display: "flex" } : { display: "none" }}
         >
           <a
             href="#home"
