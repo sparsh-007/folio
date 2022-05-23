@@ -8,7 +8,7 @@ import menuLight from "../Assets/menu-light.svg";
 import "./css/Header.css";
 
 function Header({ theme, changeTheme }) {
-  const [menu, setMenu] = useState(true);
+  const [menu, setMenu] = useState(false);
   const isLight = theme.name === "light";
   const bgdark =
     "linear-gradient(rgba(32, 32, 34, 1),rgba(32, 32, 34, 1),rgba(32, 32, 34, 0.9),rgba(32, 32, 34, 0.6),rgba(32, 32, 34, 0.4),rgba(32, 32, 34, 0))";
